@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="js/Form.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Game.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+    apiKey: "AIzaSyAe-JgNQBSoR87S5_vWN-Nep4CQ7XuwW_A",
+    authDomain: "multiplayercarracinggame-a7f09.firebaseapp.com",
+    databaseURL: "https://multiplayercarracinggame-a7f09.firebaseio.com",
+    projectId: "multiplayercarracinggame-a7f09",
+    storageBucket: "multiplayercarracinggame-a7f09.appspot.com",
+    messagingSenderId: "350459024390",
+    appId: "1:350459024390:web:613eab0c4ceb7bd0b81f87"
+  };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
